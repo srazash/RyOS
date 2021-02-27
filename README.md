@@ -1,8 +1,12 @@
 # RyOS
 
-## Welcome to the Operating System of tomorrow (circa 10,000 BCE)...
+## Welcome to the Operating System of tomorrow (assuming global nuclear war breaks out today)...
 
-RyOS is a feature-poor, barely functioning operating system that provides zero in the way of security, stability or scalability. It's bleeding edge, non-existent file system can hold literally no data whatsoever, entirely negating the risk of any possible data loss or corruption, its next-generation kernel is a joke and doesn't really exist right now. Oh, and I make no promises about not bricking your expensive hardware... In other words, this is a hobby project which if ever run should ONLY be run in a virtual machine, and even then I make no promises.
+![](OK.png)
+
+*RyOS v0.0.1 indicating that it's "OK"... nobody truly knows what's Othis means, but there is a general sense of calm and inner peace as a result of it. Thank you, RyOS.*
+
+RyOS is a feature-poor, barely functioning operating system that provides zero in the way of security, stability or scalability. It's bleeding edge, non-existent file system can hold literally no data whatsoever, entirely negating the risk of any possible data loss or corruption, its next-generation kernel is a joke and doesn't really exist right now. Oh, and I make no promises about not bricking your expensive hardware... In other words, this is a hobby project which if ever compiled and run should **ONLY be run on a virtual machine**, and even then I make no promises.
 
 ## How to make work, sort of...
 
