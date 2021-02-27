@@ -12,23 +12,27 @@ RyOS is a feature-poor, barely functioning operating system that provides zero i
 
 Build the Docker image to compile my trash source code (this only needs to be done once and it can take a while):
 
-```
+```shell
 docker build buildenv -t ryos-buildenv
 ```
 
-Spin up a docker container from the image we just built:
+> Refer to the included Dockerfile to see the exact recipe for this image, but it basically boils down to the GCC toolchain and NASM for making things actually do stuff, and Xorriso and GRUB tools for producing a bootable ISO.
 
-```
+Once the image is built it can be loaded into a running container using this command:
+
+```shell
 docker run --rm -it -v "${pwd}:/root/env" ryos-buildenv
 ```
 
-Once the container is up and running, build the OS using the Make:
+> Please note I'm working on Windows and using PowerShell to drive the bulk of this, please tweak these instructions based on your environment.
 
-```
+Once the container is up and running, build the OS using ```make```:
+
+```shell
 make build-x86_64
 ```
 
-Once done kill the contained with the ```exit``` command. This will produce a bootable ISO image in the dist/x86_64/ directory. This works on Hyper-V and an aging Lenovo x201 I have - again, I stress, don't use this on bare metal yourself!
+Once done kill the container with the ```exit``` command. This will produce a bootable ISO image in the dist/x86_64 directory. This works on Hyper-V and an aging Lenovo x201 I have - again, I stress, **do not use this on bare metal yourself!**
 
 ## Credit
 
