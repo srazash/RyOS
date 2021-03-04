@@ -34,6 +34,12 @@ make build-x86_64
 
 Once done kill the container with the ```exit``` command. This will produce a bootable ISO image in the dist/x86_64 directory. This works on Hyper-V and an aging Lenovo x201 I have - again, I stress, **do not use this on bare metal yourself!**
 
+## Version history
+
+v0.0.1: Boots and prints "OK"
+v0.0.2: Boots and prints "OK", but it does it in full 64-bit mode!
+v0.0.3: Boots and prints "OK, baby!" (upcoming version)
+
 ## Credit
 
 I am responsible for none of this, all credit goes to the CodePulse YouTube channel whose [video series](https://www.youtube.com/playlist?list=PLZQftyCk7_SeZRitx5MjBKzTtvk0pHMtp) I am following closely in order to do any of this.
