@@ -2,7 +2,7 @@
 
 ## Say goodbye to RyOS, and say hello to **RyOS64**, truly the Operating System of a *64-bit* tomorrow!
 
-![](RyOS64.png)
+![](Glitch64.gif)
 
 RyOS64 is a feature-poor, barely functioning operating system that provides zero in the way of security, stability or scalability. It's bleeding edge, non-existent file system can hold literally no data whatsoever, entirely negating the risk of any possible data loss or corruption, its next-generation kernel is a joke and doesn't really exist right now. And all of this is in glorious, full colour, 64-bit! Oh, and I make no promises about not bricking your expensive hardware... In other words, this is a hobby project which if ever compiled and run should **ONLY be run on a virtual machine**, and even then I make no promises.
 
