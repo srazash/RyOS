@@ -11,15 +11,15 @@ struct Char {
 struct Char* buffer = (struct Char*) 0xb8000;
 size_t col = 0;
 size_t row = 0;
-uint8_t colour = PRINT_COLOUR_WHITE | PRIT_COLOUR_WHITE << 4;
+uint8_t colour = PRINT_COLOUR_BLUE | PRINT_COLOUR_BLUE << 4;
 
 void clear_row(size_t row) {
     struct Char empty = (struct Char) {
         character: ' ',
         colour: colour,
-    }
+    };
 
-    for (size_t col = 0; col < NUM_COLS; cols++) {
+    for (size_t col = 0; col < NUM_COLS; col++) {
         buffer[col + NUM_COLS * row] = empty;
     }
 }
